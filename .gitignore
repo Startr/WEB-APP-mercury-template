@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# celery beat schedule files (see
+# http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html#starting-the-scheduler)
+# no need to include these in local development
+celery.sqlite
+celerybeat-schedule.db
+
 # C extensions
 *.so
 
